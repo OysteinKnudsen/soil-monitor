@@ -7,5 +7,5 @@ GPIO.setmode(GPIO.BCM)
 GPIO.setup(channel, GPIO.IN)
 
 while True:
-        time.sleep(5)
+        time.sleep(2)
         print(GPIO.input(channel))
